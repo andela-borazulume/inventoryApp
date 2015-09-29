@@ -1,0 +1,85 @@
+@font-face { 
+	font-family: open-sans; 
+	src: url('open-sans.regular.ttf');
+}
+#header {
+	margin-top: 30px;
+}
+#contact {
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+	font-family: open-sans;
+	font-weight: bolder;
+}
+.icons {
+	display: inline-block;
+	float: right;
+	margin-right: 140px;
+}
+#icons1 {
+	height: 23px;
+	width: 23px;
+}
+#icons2 {
+	height: 23px;
+	width: 23px;
+	margin-left: 30px;
+}
+#email {
+	display: inline-block;
+	margin-left: 90px;
+}
+h1{
+	margin-left: 90px;
+	/*font-family: open-sans;*/
+	font-family: 'Questrial', sans-serif;
+	margin-top: 40px;
+	font-weight: bold;
+	font-size: 40px;
+	color: #CF2555;
+}
+body {
+	margin: 0;
+}
+#content {
+	margin-top: -900px;
+}
+#background {
+	height: 900px;
+	width: 100%;
+	opacity: 0.2;
+	/*margin-bottom: 70px;*/
+}
+ul{
+	list-style: square;
+	margin-left: 70px;
+	width: 50%;
+}
+li {
+	/*font-family: open-sans;*/
+	font-family: 'Questrial', sans-serif;
+	line-height: 30px;
+}
+#footer {
+	line-height: 25px;
+	width: 50%;
+	margin-left: 90px;
+	font-family: open-sans;
+}
+#appName {
+	font-size: 20px;
+	color: #e0bb26;
+}
+button {
+	margin-left: 90px;
+	height: 50px;
+	width: 500px;
+	border-radius: 20px;
+	font-size: 25px;
+	/*font-family: open-sans;*/
+	font-family: 'Questrial', sans-serif;
+	background-color: #d1cdbe;
+	opacity: 0.6;
+	/*border-color: #eeeeee 1px;*/
+}
