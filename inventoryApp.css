@@ -9,6 +9,7 @@
 	display: inline-block;
 	float: right;
 	margin-right: 140px;
+	margin-top: -40px;
 }
 i {
 	margin-right: 30px;
@@ -158,4 +159,16 @@ h5 {
 .navbar-fixed-top {
 	top: 0;
 	border: 0 0 1px;
+}
+
+#logoText {
+	margin-top: 5px;
+	margin-bottom: 0;
+	margin-left: 150px;
+	font-size: 50px;
+	display: inline-block;
+	color: #7d8ba5;
+}
+#logoText2 {
+	font-size: 35px;
 }
