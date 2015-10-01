@@ -13,54 +13,65 @@
 		<script type="text/javascript" src="./js/inventoryApp.js"></script>
 	</head>
 	<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div id="logo">
+			<h3>BizTracker</h3>
+		</div>
+		<div id="header">
+			<div class="icons">
+				<a href="mailto:blessing.orazulume@andela.com">
+				<i class="fa fa-envelope"></i>
+				</a>
+			<a href="https://www.facebook.com/orazulume.blessing" target="_blank">
+				<img src="./images/facebookIcon.jpg" id="icons1">
+			</a>
+			<a href="https://twitter.com/blessingoraz" target="_blank">
+				<img src="./images/twitterIcon.png" id="icons2">
+			</a>
+			</div>
+		</div>
+	</nav>
+
 		<img src="./images/pix.jpg" id="background">
 		<div id="overlay">
 			<div id="content">
-				<div id="header">
-					<div id="email">
-						<i class="fa fa-envelope"></i>
-						<p id="contact">Email:
-						<a href="mailto:blessing.orazulume@andela.com"> 
-						blessing.orazulume@andela.com</a>
-						</p>
-					</div>
-
-					<div class="icons">
-					<a href="https://www.facebook.com/orazulume.blessing" target="_blank">
-						<img src="./images/facebookIcon.jpg" id="icons1">
-					</a>
-					<a href="https://twitter.com/blessingoraz" target="_blank">
-						<img src="./images/twitterIcon.png" id="icons2">
-					</a>
-					</div>
-				</div>
-				<div>
+				<div id="title">
 					<h1>
-						INVENTORY APP <br>
-						FOR YOUR SMALL<br> 
-						BUSINESS
+						INVENTORY APP FOR YOUR SMALL BUSINESS
 					</h1>
 				</div>
-				<ul>
-					<li>
-						Would you like to  Have immediate access to accurate, timely inventory information in the palm of your hand as a business owner?
-					</li>
-					<li>
-						Would you like to have an app that tracks your product levels, orders, sales and deliveries and also manage your stock and sales?
-					</li>
-					<li>
-						Would you like to keep track of how much inventory you have on hand, how much you are going to need and how long it will take to receive new inventory?
-					</li>
-					<li>
-						Would you pay for an app that allows you to make inventory data entry, search, and visualization possible from any location and at any time using your smartphone and tablet?
-					</li>
-				</ul>
-				<p id="footer">
-					Staying organized should be a priority for any small business owner, especially where inventory is concerned.<br><br>
 
-					<span id="appName">KeepTrack</span> helps you manage the items you sell on a consistent basis to plan reorders or sales strategies, while at the same time showing you which items are not selling as well and do not need to be reordered.
+				<div class="row">
+				  <div class="col-md-6" id="feature1">
+				  	<img src="./images/img1.jpg" id="img1">
+							<p>Would you like to  have immediate access to accurate, timely inventory information in the palm of your hand 		as a business owner?
+							</p>
+				  </div>
+				  <div class="col-md-6" id="feature2">
+				  	<img src="./images/img2.jpg" id="img2">
+							<p>Would you like to have an app that tracks your product levels, orders, sales and deliveries and also manage 		your stock and sales?
+							</p>
+				  </div>
+				</div>
+
+				<div class="row">
+				  <div class="col-md-6" id="feature1">
+				  	<img src="./images/img4.jpg" id="img4">
+							<p>Would you like to keep track of how much inventory you have on hand, how much you are going to need and how 		long it will take to receive new inventory?
+							</p>
+				  </div>
+				  <div class="col-md-6" id="feature2">
+				  	<img src="./images/img3.jpg" id="img3">
+							<p>Would you pay for an app that allows you to make inventory data entry, search, and visualization possible 		 from any location and at any time using your smartphone and tablet?
+							</p>
+				  </div>
+				</div>
+				<p id="footer">
+					Staying organized should be a priority for any small business owner, especially where inventory is concerned.
 				</p>
-				<a href="#"><input type="button" onclick="authUser()" data-toggle="modal" data-target="#myModal" value="Click here to register with Facebook"></a>
+				<p id="footer1"><span id="appName" onclick="authUser()">BizTracker</span> helps you manage the items you sell on a consistent basis to plan reorders or sales strategies, while at the same time showing you which items are not selling as well and do not need to be reordered.
+				</p>
+				<a href="#"><div id="btn"><input type="button" onclick="authUser()" data-toggle="modal" data-target="#myModal" value="Click here to register with Facebook"></div></a>
 			</div>
 		</div>
 		<div class="modal fade" id="myModal" role="dialog">

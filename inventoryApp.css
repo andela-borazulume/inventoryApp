@@ -3,19 +3,15 @@
 	src: url('open-sans.regular.ttf');
 }
 #header {
-	margin-top: 30px;
-}
-#contact {
-	padding: 0px;
-	margin: 0px;
-	display: inline-block;
-	font-family: open-sans;
-	font-weight: bolder;
+	margin-top: 10px;
 }
 .icons {
 	display: inline-block;
 	float: right;
 	margin-right: 140px;
+}
+i {
+	margin-right: 30px;
 }
 #icons1 {
 	height: 23px;
@@ -26,17 +22,17 @@
 	width: 23px;
 	margin-left: 30px;
 }
-#email {
-	display: inline-block;
-	margin-left: 90px;
-}
 h1{
-	margin-left: 90px !important;
 	font-family: 'Questrial', sans-serif;
 	margin-top: 40px;
 	font-weight: bold;
 	font-size: 40px;
-	color: #CF2555;
+	color: #CF2555 !important;
+	text-align: center;
+}
+
+#title {
+	margin-top: 150px;
 }
 body {
 	margin: 0;
@@ -49,30 +45,86 @@ body {
 	width: 100%;
 	opacity: 0.2;
 }
-ul{
-	list-style: square;
-	margin-left: 66px;
-	width: 50%;
+#img1 {
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	margin-left: 90px;
+	margin-top: 60px;
 }
-li {
-	/*font-family: open-sans;*/
-	font-family: 'Questrial', sans-serif;
-	line-height: 30px;
+
+#img2 {
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	margin-top: 60px;
+}
+
+#img3 {
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	margin-top: -50px;
+}
+
+#img4 {
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	margin-top: -50px;
+	margin-left: 90px;
+}
+#feature1 p {
+	position: relative;
+	bottom: 180px;
+	left: 320px;
+	width: 300px;
+	height: 100px;
+	line-height: 1.4em;
+	margin: 0;
+	font-size: 17px;
+}
+
+#feature2 p {
+	position: relative;
+	bottom: 180px;
+	left: 235px;
+	width: 300px;
+	height: 100px;
+	line-height: 1.4em;
+	margin: 0;
+	font-size: 17px;
 }
 #footer {
 	line-height: 25px;
-	width: 50%;
+	width: 80%;
 	margin-left: 90px;
 	font-family: open-sans;
+	text-align: center;
+	font-size: 35px;
+	margin: 0 auto;
+	line-height: 1.4em;
+	color: #555555;
 }
 #appName {
 	font-size: 20px;
-	color: #e0bb26;
+	color: #CF2555;
+	cursor: pointer;
+}
+#footer1 {
+	text-align: center;
+	margin: 0 auto;
+	width: 90%;
+	line-height: 1.4em;
+	font-size: 20px;
+	color: #555555;
+	margin-top: 20px;
 }
 input {
 	cursor: pointer;
 	border:1px solid #a4a299;
-	margin-left: 90px !important;
+	margin-top: 50px;
+	margin-bottom: 30px;
 	height: 50px;
 	width: 500px;
 	border-radius: 20px;
@@ -80,6 +132,11 @@ input {
 	font-family: 'Questrial', sans-serif;
 	background-color: #d1cdbe;
 	opacity: 0.6;
+}
+#btn {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	text-align: center;
 }
 a {
 	position:relative; 
@@ -94,4 +151,11 @@ h4 {
 h5 {
 	text-align: center;
 	color: red;
+}
+.navbar-default {
+	background-color: #ffffff !important;
+}
+.navbar-fixed-top {
+	top: 0;
+	border: 0 0 1px;
 }
