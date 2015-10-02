@@ -2,6 +2,25 @@
 	font-family: open-sans; 
 	src: url('open-sans.regular.ttf');
 }
+.navbar-default {
+	background-color: #ffffff !important;
+}
+.navbar-fixed-top {
+	top: 0;
+	border: 0 0 1px;
+}
+
+#logoText {
+	margin-top: 5px;
+	margin-bottom: 0;
+	margin-left: 150px;
+	font-size: 50px;
+	display: inline-block;
+	color: #7d8ba5;
+}
+#logoText2 {
+	font-size: 35px;
+}
 #header {
 	margin-top: 10px;
 }
@@ -19,8 +38,8 @@ i {
 	width: 23px;
 }
 #icons2 {
-	height: 23px;
-	width: 23px;
+	height: 20px;
+	width: 20px;
 	margin-left: 30px;
 }
 h1{
@@ -31,54 +50,46 @@ h1{
 	color: #CF2555 !important;
 	text-align: center;
 }
-
-#title {
-	margin-top: 150px;
-}
 body {
 	margin: 0;
 }
 #content {
-	margin-top: -740px;
+	margin-top: -470px;
 }
 #background {
-	height: 770px;
+	height: 610px;
 	width: 100%;
 	opacity: 0.2;
 }
 #img1 {
-	height: 200px;
-	width: 200px;
-	border-radius: 100px;
-	margin-left: 90px;
+	font-size: 10em;
+	color: gray;
+	margin-left: 155px;
 	margin-top: 60px;
 }
 
 #img2 {
-	height: 200px;
-	width: 200px;
-	border-radius: 100px;
+	font-size: 8em;
+	color: gray;
 	margin-top: 60px;
 }
 
 #img3 {
-	height: 200px;
-	width: 200px;
-	border-radius: 100px;
+	font-size: 8em;
+	color: gray;
 	margin-top: -50px;
 }
 
 #img4 {
-	height: 200px;
-	width: 200px;
-	border-radius: 100px;
+	font-size: 8em;
+	color: gray;
 	margin-top: -50px;
-	margin-left: 90px;
+	margin-left: 150px;
 }
 #feature1 p {
 	position: relative;
-	bottom: 180px;
-	left: 320px;
+	bottom: 130px;
+	left: 315px;
 	width: 300px;
 	height: 100px;
 	line-height: 1.4em;
@@ -86,10 +97,20 @@ body {
 	font-size: 17px;
 }
 
-#feature2 p {
+#last1 {
 	position: relative;
-	bottom: 180px;
-	left: 235px;
+	bottom: 105px;
+	left: 180px;
+	width: 300px;
+	height: 100px;
+	line-height: 1.4em;
+	margin: 0;
+	font-size: 17px;
+}
+#last {
+	position: relative;
+	bottom: 130px;
+	left: 180px;
 	width: 300px;
 	height: 100px;
 	line-height: 1.4em;
@@ -152,23 +173,4 @@ h4 {
 h5 {
 	text-align: center;
 	color: red;
-}
-.navbar-default {
-	background-color: #ffffff !important;
-}
-.navbar-fixed-top {
-	top: 0;
-	border: 0 0 1px;
-}
-
-#logoText {
-	margin-top: 5px;
-	margin-bottom: 0;
-	margin-left: 150px;
-	font-size: 50px;
-	display: inline-block;
-	color: #7d8ba5;
-}
-#logoText2 {
-	font-size: 35px;
 }
